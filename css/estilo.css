@@ -6,9 +6,8 @@
 }
 
 body{
-    border: solid red;
     height: 100vh; 
-    background-color:black;
+    background-color:#141414;
 }
 
 main{
@@ -19,15 +18,19 @@ main{
     align-items: center;
 }
 
-section{
-    padding: 15px;
-}
-
 .card{
-    width: 300px;
-    background-color: gray;
+    width: 250px;
+    background-color: #1F1F1F;
     border-radius: 10px;
 }
+
+
+
+section{
+    padding: 20px;
+}
+
+
 .principal{
    
     display: flex;
@@ -36,34 +39,53 @@ section{
 
 }
 
+
 .img-principal{
-    width: 250px;
-    border-radius: 10px;
+    width:40px;
+    border-radius: 100%;
+ }
+ 
+
+.secundaria{
+    text-align: center;
 }
-
-
 
 .text-white{
     color: #fff;
     margin-bottom: 10px;
 }
 
-.text-gray{
-    color: hsl(215, 51%, 70%);
+.text-green{
+    color: #C4F82A;
 }
+
+p{
+    font-size: small;
+}
+
 
 .tercero{
-   
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
-
-.verde{
-    color: hsl(178, 100%, 50%)  ;
+.ul-vertical {
+	list-style: none;
+	background-color: #1E1F23;
+	display: inline-block;
 }
-
-
-.img-principal{
-   width:40px;
-   border-radius: 100%;
+.ul-vertical li {
+	background-color: #333333;
+	width: 150px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #333333;
+    border-radius: 5%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+}
+.ul-vertical li+li {
+	margin-top: 8px;
 }
