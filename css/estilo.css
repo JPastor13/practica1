@@ -19,15 +19,10 @@ main{
 }
 
 .card{
-    width: 250px;
+    width: 200px;
+    height: 290px;
     background-color: #1F1F1F;
     border-radius: 10px;
-}
-
-
-
-section{
-    padding: 20px;
 }
 
 
@@ -36,6 +31,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 
 }
 
@@ -50,42 +47,58 @@ section{
     text-align: center;
 }
 
-.text-white{
+.text-1{
     color: #fff;
-    margin-bottom: 10px;
+    padding-bottom: 4px;
 }
 
-.text-green{
+.text-2{
     color: #C4F82A;
+    padding-bottom: 15px;
 }
+
+.text-3{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
 
 p{
-    font-size: small;
+    font-size:x-small;
 }
-
 
 .tercero{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
 .ul-vertical {
 	list-style: none;
 	background-color: #1E1F23;
-	display: inline-block;
 }
 .ul-vertical li {
 	background-color: #333333;
-	width: 150px;
-	height: 30px;
-	margin: 0;
-	padding: 0;
+	width: 170px;
+	height: 20px;
 	border: 1px solid #333333;
-    border-radius: 5%;
+    border-radius: 5px;
     text-align: center;
-    color: #fff;
-    font-size: small;
+    cursor: pointer;
 }
 .ul-vertical li+li {
 	margin-top: 8px;
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size:x-small;
+}
+
+  li:hover {
+    background:  #C4F82A;
+  }
+   
+  li:hover a {
+    color: black;
+  }
